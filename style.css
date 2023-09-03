@@ -1,0 +1,169 @@
+*{
+   margin: 0;
+   padding: 0;
+   box-sizing: border-box;
+   font-family: ' Sans', 'Lucida Sans RegularLucida', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+.main{
+   height: 100%;
+   width: 100%;
+   position: relative;
+}
+html body{
+   height: 100%;
+   width: 100%;
+}
+
+.navbar{
+   height: 100px;
+   width: 100%;
+   /* background-color: royalblue;   */
+   display: flex;
+   justify-content: space-between;
+   align-items: center;     
+   padding: 0 5vw;
+   border-bottom: 2px solid #dadada;
+   
+}
+
+.nav-part2{
+   display: flex;
+   gap: 4vw;
+   /* background-color: aqua; */
+   text-transform: capitalize;
+   align-items: center;
+   
+}
+
+.nav-h1{
+   font-weight:700;
+   display: flex;
+   font-size: 3vw;
+
+}
+.navbar i{
+   font-size: 2vw;
+   font-weight: 800;
+   display: none ;
+}
+
+.navbar button{
+   font-size: 1.2vw;
+   padding: 0.7vw 1.2vw;
+   background-color: #FE7362;
+   border: none;
+   border-radius: 5px;
+   font-weight: 600;
+   color: white;
+}
+.hero{
+   width: 100%;
+   height: 84.8vh;
+   
+   display: flex;
+   position: relative;
+}
+
+.left{
+   height: 84.8vh;
+   width: 50%;
+   padding: 4vw 5vw;
+}
+.left h1{
+   font-size: 4.2vw;
+   line-height: 4.4vw;
+}
+.left span{
+   color: #FE7362;
+
+}
+.left p{
+   font-size: 1.2vw;
+   font-weight: 600;
+   color: #666;
+   width: 80%;
+   margin-top: 1.5vw;
+   margin-bottom:  3vw;
+}
+.hero button{
+   font-size: 1.5vw;
+   padding: 1.2vw 2.3vw;
+   background-color: #FE7362;
+   border: none;
+   border-radius: 5px;
+   font-weight: 700;
+   color: white;
+
+
+}
+.right{
+   height: 84.8vh;
+   width: 50%;
+   display: flex;
+   justify-content: end;
+}
+.right img {
+   
+   width: 100%;
+   height: 100%;
+}
+
+button:hover{
+   background-color: darkseagreen;
+
+}
+
+@media (max-width:600px) {
+   .navbar{
+     padding:0 6vw;
+     height: 60px;
+      color: black;
+   }
+   .nav-h1{
+      font-size: 6vw;
+   }
+   .nav-part2 h4{
+      display: none; 
+   }
+   .nav-part2 i {
+      display:inline ;
+      font-size: 6vw;
+   }
+   .navbar button{
+      display: none;
+   }
+   .hero{
+      flex-direction: column;
+      height: 95.5vh
+   }
+   .right{
+      width: 100%;
+      height: 50%;
+   }
+   .left{
+      width: 100%;
+      height: 50%;
+   }
+   .hero h1{
+      font-size: 10vw;
+      line-height: 10vw;
+      padding: 4vw 2vw;
+   }
+   .hero p{
+      font-size: 3vw;
+      padding: 2vw 2vw;
+      width: 100%;
+      margin-top: 4vw;
+      margin-bottom: 7vw;
+   }
+   .left button{
+      font-size: 4vw;
+      font-weight: 500;
+      padding: 2vw 5vw;
+      margin: 2vw 0 2vw 2vw;
+      border-radius: 4px;
+   }
+      
+      
+   }
+ 
